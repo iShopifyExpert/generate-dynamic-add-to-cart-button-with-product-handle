@@ -90,19 +90,21 @@ var _config = { addToCartBtnLabel: 'Add to cart', addedToCartBtnLabel: 'Thank yo
 </script>
 
 <style>
-.ajaxified-cart-feedback {
-  display: block;
-  line-height: 36px;
-  font-size: 90%;
-  vertical-align: middle;
+p.cart-feedback {
+    font-size: 10px;
+    margin: 7px auto;
+    color: #ce9e29;
 }
-.ajaxified-cart-feedback.success { 
-  color: #3D9970;
+p.cart-feedback a {
+    color: #000;
 }
-.ajaxified-cart-feedback.error { 
-  color: #FF4136; 
-} 
-.ajaxified-cart-feedback a {
-  border-bottom: 1px solid;
+li.cart-count a:hover span {
+    color: #000;
+}
+li.cart-count a span {
+    padding: 3px 5px;
+    margin: 3px;
+    background: linear-gradient(20deg, #e8c543 20%, #a0791e 70%);
+    border-radius: 50%;
 }
 </style>
